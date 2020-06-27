@@ -1,4 +1,0 @@
-#Sat Jun 27 14:03:02 GMT+04:00 2020
-base.0=/Users/artem/LocalProjects/KotlinMultiplatformKtor/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

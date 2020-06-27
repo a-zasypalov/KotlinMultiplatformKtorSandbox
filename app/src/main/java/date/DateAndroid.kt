@@ -1,6 +1,6 @@
 package date
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 import java.text.SimpleDateFormat
@@ -14,14 +14,12 @@ actual class PlatformDate {
     }
 }
 
-class MainActivity : AppCompatActivity(), DateView {
+class MainActivity : AppCompatActivity(R.layout.activity_main), DateView {
 
     private val presenter by lazy { DatePresenter(this) }
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
+    override fun onStart() {
+        super.onStart()
         presenter.init()
     }
 
