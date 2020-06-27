@@ -25,6 +25,8 @@ android {
         pickFirst 'META-INF/ktor-client-core.kotlin_module'
         pickFirst 'META-INF/ktor-http-cio.kotlin_module'
         pickFirst 'META-INF/ktor-io.kotlin_module'
+        pickFirst 'META-INF/ktor-client-json.kotlin_module'
+        pickFirst 'META-INF/ktor-client-serialization.kotlin_module'
     }
     compileSdkVersion 29
     defaultConfig {
@@ -42,20 +44,21 @@ android {
     }
 }
 
-dependencies {
-    implementation 'com.google.code.gson:gson:2.8.6'
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-}
-
 kotlin {
     android("android")
     // This is for iPhone emulator
-    // Switch here to iosArm64 (or iosArm32) to build library for iPhone device
-    iosX64("ios") {
+    // Switch here to iosArm64 (or iosArm32) to build library for iPhone device iosX64
+    targets {
+        final def iOSTarget = System.getenv('SDK_NAME')?.startsWith("iphoneos") \
+                          ? presets.iosArm64 : presets.iosX64
+
+        fromPreset(iOSTarget, 'ios') {
+            binaries {
+                framework()
+            }
+        }
+    }
+    macosX64("native") {
         binaries {
             framework()
         }
@@ -65,24 +68,26 @@ kotlin {
             dependencies {
                 implementation kotlin('stdlib-common')
                 implementation "io.ktor:ktor-client-core:$rootProject.ktorVer"
+                implementation "io.ktor:ktor-client-json:$rootProject.ktorVer"
                 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:$rootProject.coroutinesVer"
-                implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime-common:0.11.1"
-
+                implementation "io.ktor:ktor-client-serialization:$rootProject.ktorVer"
             }
         }
         androidMain {
             dependencies {
                 implementation kotlin('stdlib')
                 implementation "io.ktor:ktor-client-android:$rootProject.ktorVer"
+                implementation("io.ktor:ktor-client-json-jvm:$rootProject.ktorVer")
                 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutinesVer"
-                implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime:0.11.1"
+                implementation "io.ktor:ktor-client-serialization-jvm:$rootProject.ktorVer"
             }
         }
         iosMain {
             dependencies{
                 implementation "io.ktor:ktor-client-ios:$ktorVer"
+                implementation("io.ktor:ktor-client-json-native:$ktorVer")
                 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core-native:$rootProject.coroutinesVer"
-                implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime-native:0.11.1"
+                implementation "io.ktor:ktor-client-serialization-native:$ktorVer"
             }
         }
         commonTest {
@@ -103,6 +108,20 @@ kotlin {
         }
       \
     }
+}
+
+apply plugin: 'kotlin-kapt'
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+
+    implementation "com.github.bumptech.glide:glide:4.11.0"
+    kapt "com.github.bumptech.glide:compiler:4.11.0"
 }
 
 // This task attaches native framework built from ios module to Xcode project

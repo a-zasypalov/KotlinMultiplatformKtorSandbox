@@ -11,7 +11,9 @@ import app
 class DatePhotoViewController: ObservableObject, DateView, PhotoView {
     
     @Published var currentDate = "Nope"
-    @Published var currentPhoto = "Nope"
+    @Published var currentPhoto: URL?
+    @Published var currentPhotoAuthor = "Nope"
+
     
     var datePresenter: DatePresenter!
     var photoPresenter: PhotoPresenter!
@@ -34,7 +36,8 @@ class DatePhotoViewController: ObservableObject, DateView, PhotoView {
     }
     
     func setPhoto(photo: PhotoState) {
-        currentPhoto = photo.info
+        currentPhoto = URL(string: (photo.list[0] as! Photo).download_url)
+        currentPhotoAuthor = (photo.list[0] as! Photo).author
     }
     
 }

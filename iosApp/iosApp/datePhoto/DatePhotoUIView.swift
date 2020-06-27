@@ -8,6 +8,7 @@
 
 import SwiftUI
 import app
+import URLImage
 
 struct DatePhotoUIView: View {
     
@@ -17,8 +18,21 @@ struct DatePhotoUIView: View {
         NavigationView {
             VStack {
                 Text(controller.currentDate)
-                Spacer()
-                Text(controller.currentPhoto)
+                if(controller.currentPhoto != nil) {
+                    URLImage(controller.currentPhoto!,
+                             placeholder: {_ in Text("Image...")},
+                             content: {
+                                $0.image
+                                    .resizable()
+                                    .aspectRatio(contentMode: .fit)
+                                    .clipShape(RoundedRectangle(cornerRadius: 5))
+                                    .padding(.all, 40.0)
+                                    .shadow(radius: 10.0)
+                    })
+                } else {
+                    Text("Image...")
+                }
+                Text(controller.currentPhotoAuthor)
             }
         }.onAppear {
             self.controller.initDateView()

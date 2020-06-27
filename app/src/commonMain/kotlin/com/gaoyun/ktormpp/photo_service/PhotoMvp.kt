@@ -11,12 +11,12 @@ class PhotoPresenter(
     private val view: PhotoView
 ) {
 
-    private val state = PhotoState("")
+    private val state = PhotoState(mutableListOf())
 
     fun getRandomPhoto() {
         GlobalScope.apply {
             launch(Background) {
-               state.info = useCase.getPhoto()
+               state.list = useCase.getPhotos().map { it.toPhoto() }.toMutableList()
                 withContext(Main){
                     view.setPhoto(state)
                 }
@@ -31,5 +31,21 @@ interface PhotoView {
 }
 
 data class PhotoState(
-    var info: String
+    var list: MutableList<Photo>
 )
+
+data class Photo(
+    val id: Int,
+    val author: String,
+    val url: String,
+    val download_url: String
+)
+
+fun PhotoResponse.toPhoto(): Photo {
+    return Photo(
+        this.id ?: -1,
+        this.author ?: "",
+        this.url ?: "",
+        this.download_url ?: ""
+    )
+}

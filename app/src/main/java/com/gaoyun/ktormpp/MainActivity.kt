@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.gaoyun.ktormpp.date.DatePresenter
 import com.gaoyun.ktormpp.date.DateView
 import com.R
+import com.bumptech.glide.Glide
 import com.gaoyun.ktormpp.photo_service.*
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -25,6 +26,11 @@ class MainActivity : AppCompatActivity(R.layout.activity_main),
     }
 
     override fun setPhoto(photo: PhotoState) {
-        tv_photo_info.text = photo.info
+        tv_photo_info.text = photo.list.first().author
+
+        Glide.with(this)
+            .load(photo.list.first().download_url)
+            .centerCrop()
+            .into(img_photo)
     }
 }
