@@ -1,0 +1,150 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/a00bcb3b47ab31958914e3f6ca249625/appcompat-v7-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/artem/.gradle/caches/transforms-2/files-2.1/1c86837288fe2f6b40afe29d1a661256/constraint-layout-1.1.3/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/c1a72c2bca752c72530b43d9a738d34d/support-fragment-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/ab3ef8af7dcff51e221ceaa4d440a0d6/animated-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/3982bf7b385c9b1029353afbc583a969/support-core-ui-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/29c0a7e2755a84839ce46007eb249a8e/support-core-utils-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/7ac9c909a85361dd43277935bd8d4458/support-vector-drawable-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/94551eff50d34b0dfedbcb0bf7515da9/loader-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/413678c23807b71185ea4cd47a80ce8b/viewpager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/39315afbcf0329f65f0101bd3d987543/coordinatorlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/1e2d43eea6ca1ebf97cc2da1ce68bc7c/drawerlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/72d37df05f1774846b3bd9a8a1ba119c/slidingpanelayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/da4c3e85d1fce725631c3b52f2e78443/customview-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/76d18eb82f2630372f347d6235b8c079/swiperefreshlayout-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/fe1d4949cc874a55e36d00f23535ff16/asynclayoutinflater-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/7e0ea91f9042a7d6065c0b3069f6e7be/support-compat-28.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/ae10b23255ffea0a2cd588673138360f/versionedparcelable-28.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/359e990c1849d8bc9cff6a46f274cbf3/cursoradapter-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/50687970d2bb8d92dddc956eee339805/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/dc5281624fe386b5210687048a0bfc46/documentfile-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/1b7859b5f62696163822aa57a92bfb65/localbroadcastmanager-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/2b4e0f3418f4349b32ebbaf31f04422f/print-28.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/a586bee20fe143d2a04582c270e45fdf/viewmodel-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/37d5c80afdb1cd7780e857e4222b8925/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/73d1644d6e8e94a853201fbb7e4c007c/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/32fa802d5d40fd7a0ec3b9b1e3998b32/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/35a5706069f9a117e2b6e1b3fa373672/interpolator-28.0.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:1-19:12
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:1-19:12
+	package
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:3:11-25
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:1-19:12
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:1-19:12
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:5:5-17:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/artem/.gradle/caches/transforms-2/files-2.1/1c86837288fe2f6b40afe29d1a661256/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/artem/.gradle/caches/transforms-2/files-2.1/1c86837288fe2f6b40afe29d1a661256/constraint-layout-1.1.3/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/7e0ea91f9042a7d6065c0b3069f6e7be/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/7e0ea91f9042a7d6065c0b3069f6e7be/support-compat-28.0.0/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/ae10b23255ffea0a2cd588673138360f/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/ae10b23255ffea0a2cd588673138360f/versionedparcelable-28.0.0/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/7e0ea91f9042a7d6065c0b3069f6e7be/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:8:13-39
+	android:label
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:7:13-45
+	android:allowBackup
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:6:13-39
+	android:theme
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:9:13-44
+activity#date.MainActivity
+ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:10:9-16:20
+	android:name
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:10:19-51
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:11:13-15:29
+action#android.intent.action.MAIN
+ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:12:17-69
+	android:name
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:12:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:14:17-77
+	android:name
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml:14:27-74
+uses-sdk
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/a00bcb3b47ab31958914e3f6ca249625/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/a00bcb3b47ab31958914e3f6ca249625/appcompat-v7-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/artem/.gradle/caches/transforms-2/files-2.1/1c86837288fe2f6b40afe29d1a661256/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/artem/.gradle/caches/transforms-2/files-2.1/1c86837288fe2f6b40afe29d1a661256/constraint-layout-1.1.3/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/c1a72c2bca752c72530b43d9a738d34d/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/c1a72c2bca752c72530b43d9a738d34d/support-fragment-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/ab3ef8af7dcff51e221ceaa4d440a0d6/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/ab3ef8af7dcff51e221ceaa4d440a0d6/animated-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/3982bf7b385c9b1029353afbc583a969/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/3982bf7b385c9b1029353afbc583a969/support-core-ui-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/29c0a7e2755a84839ce46007eb249a8e/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/29c0a7e2755a84839ce46007eb249a8e/support-core-utils-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/7ac9c909a85361dd43277935bd8d4458/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/7ac9c909a85361dd43277935bd8d4458/support-vector-drawable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/94551eff50d34b0dfedbcb0bf7515da9/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/94551eff50d34b0dfedbcb0bf7515da9/loader-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/413678c23807b71185ea4cd47a80ce8b/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/413678c23807b71185ea4cd47a80ce8b/viewpager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/39315afbcf0329f65f0101bd3d987543/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/39315afbcf0329f65f0101bd3d987543/coordinatorlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/1e2d43eea6ca1ebf97cc2da1ce68bc7c/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/1e2d43eea6ca1ebf97cc2da1ce68bc7c/drawerlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/72d37df05f1774846b3bd9a8a1ba119c/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/72d37df05f1774846b3bd9a8a1ba119c/slidingpanelayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/da4c3e85d1fce725631c3b52f2e78443/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/da4c3e85d1fce725631c3b52f2e78443/customview-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/76d18eb82f2630372f347d6235b8c079/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/76d18eb82f2630372f347d6235b8c079/swiperefreshlayout-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/fe1d4949cc874a55e36d00f23535ff16/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/fe1d4949cc874a55e36d00f23535ff16/asynclayoutinflater-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/7e0ea91f9042a7d6065c0b3069f6e7be/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/7e0ea91f9042a7d6065c0b3069f6e7be/support-compat-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/ae10b23255ffea0a2cd588673138360f/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/ae10b23255ffea0a2cd588673138360f/versionedparcelable-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/359e990c1849d8bc9cff6a46f274cbf3/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/359e990c1849d8bc9cff6a46f274cbf3/cursoradapter-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/50687970d2bb8d92dddc956eee339805/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/50687970d2bb8d92dddc956eee339805/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/dc5281624fe386b5210687048a0bfc46/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/dc5281624fe386b5210687048a0bfc46/documentfile-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/1b7859b5f62696163822aa57a92bfb65/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/1b7859b5f62696163822aa57a92bfb65/localbroadcastmanager-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/2b4e0f3418f4349b32ebbaf31f04422f/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/2b4e0f3418f4349b32ebbaf31f04422f/print-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/a586bee20fe143d2a04582c270e45fdf/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/a586bee20fe143d2a04582c270e45fdf/viewmodel-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/37d5c80afdb1cd7780e857e4222b8925/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/37d5c80afdb1cd7780e857e4222b8925/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/73d1644d6e8e94a853201fbb7e4c007c/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/73d1644d6e8e94a853201fbb7e4c007c/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/32fa802d5d40fd7a0ec3b9b1e3998b32/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/artem/.gradle/caches/transforms-2/files-2.1/32fa802d5d40fd7a0ec3b9b1e3998b32/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/35a5706069f9a117e2b6e1b3fa373672/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/artem/.gradle/caches/transforms-2/files-2.1/35a5706069f9a117e2b6e1b3fa373672/interpolator-28.0.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+		ADDED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/artem/LocalProjects/KotlinMultiplatformKtor/app/src/main/AndroidManifest.xml
