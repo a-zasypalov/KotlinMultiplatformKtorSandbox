@@ -9,22 +9,27 @@
 import SwiftUI
 import app
 
-struct DateUIView: View {
+struct DatePhotoUIView: View {
     
-    @ObservedObject var controller = DateViewController()
+    @ObservedObject var controller = DatePhotoViewController()
     
     var body: some View {
         NavigationView {
-            Text(controller.currentDate)
+            VStack {
+                Text(controller.currentDate)
+                Spacer()
+                Text(controller.currentPhoto)
+            }
         }.onAppear {
             self.controller.initDateView()
+            self.controller.getPhotos()
         }
     }
     
 }
 
-struct DateView_Previews: PreviewProvider {
+struct DatePhotoView_Previews: PreviewProvider {
     static var previews: some View {
-        DateUIView()
+        DatePhotoUIView()
     }
 }
