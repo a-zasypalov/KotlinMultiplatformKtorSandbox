@@ -10,9 +10,10 @@
 		AC08C40C24A741BE003C7D90 /* IosdateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C40B24A741BE003C7D90 /* IosdateUtilities.swift */; };
 		AC08C42E24A74D87003C7D90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C42D24A74D87003C7D90 /* SceneDelegate.swift */; };
 		AC08C43324A74DA4003C7D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC08C42F24A74DA4003C7D90 /* LaunchScreen.storyboard */; };
-		AC08C43424A74DA4003C7D90 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C43124A74DA4003C7D90 /* DateView.swift */; };
+		AC08C43424A74DA4003C7D90 /* DateUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C43124A74DA4003C7D90 /* DateUIView.swift */; };
 		AC08C43524A74DA4003C7D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC08C43224A74DA4003C7D90 /* Assets.xcassets */; };
 		AC08C43724A74DAA003C7D90 /* Preview Content in Resources */ = {isa = PBXBuildFile; fileRef = AC08C43624A74DAA003C7D90 /* Preview Content */; };
+		AC08C46724A7534B003C7D90 /* DateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC08C46624A7534B003C7D90 /* DateViewController.swift */; };
 		F861D7E1207FA40F0085E80D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861D7E0207FA40F0085E80D /* AppDelegate.swift */; };
 		F861D7F6207FA4100085E80D /* iosAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861D7F5207FA4100085E80D /* iosAppTests.swift */; };
 		F861D80C207FA4200085E80D /* app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F861D805207FA4200085E80D /* app.framework */; };
@@ -54,9 +55,10 @@
 		AC08C40B24A741BE003C7D90 /* IosdateUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosdateUtilities.swift; sourceTree = "<group>"; };
 		AC08C42D24A74D87003C7D90 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../../test/testui/testui/SceneDelegate.swift; sourceTree = "<group>"; };
 		AC08C43024A74DA4003C7D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../../test/testui/testui/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AC08C43124A74DA4003C7D90 /* DateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		AC08C43124A74DA4003C7D90 /* DateUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUIView.swift; sourceTree = "<group>"; };
 		AC08C43224A74DA4003C7D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../test/testui/testui/Assets.xcassets; sourceTree = "<group>"; };
 		AC08C43624A74DAA003C7D90 /* Preview Content */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Preview Content"; path = "../../../test/testui/testui/Preview Content"; sourceTree = "<group>"; };
+		AC08C46624A7534B003C7D90 /* DateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewController.swift; sourceTree = "<group>"; };
 		F861D7DD207FA40F0085E80D /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F861D7E0207FA40F0085E80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F861D7EC207FA4100085E80D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -89,8 +91,9 @@
 		AC08C46524A752CE003C7D90 /* date */ = {
 			isa = PBXGroup;
 			children = (
-				AC08C43124A74DA4003C7D90 /* DateView.swift */,
+				AC08C43124A74DA4003C7D90 /* DateUIView.swift */,
 				AC08C40B24A741BE003C7D90 /* IosdateUtilities.swift */,
+				AC08C46624A7534B003C7D90 /* DateViewController.swift */,
 			);
 			path = date;
 			sourceTree = "<group>";
@@ -277,7 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC08C43424A74DA4003C7D90 /* DateView.swift in Sources */,
+				AC08C46724A7534B003C7D90 /* DateViewController.swift in Sources */,
+				AC08C43424A74DA4003C7D90 /* DateUIView.swift in Sources */,
 				AC08C40C24A741BE003C7D90 /* IosdateUtilities.swift in Sources */,
 				F861D7E1207FA40F0085E80D /* AppDelegate.swift in Sources */,
 				AC08C42E24A74D87003C7D90 /* SceneDelegate.swift in Sources */,
