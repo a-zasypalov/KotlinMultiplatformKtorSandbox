@@ -1,4 +1,4 @@
-package date
+package com.gaoyun.ktormpp.date
 
 interface DateProtocol{
     fun getIosDate(): String

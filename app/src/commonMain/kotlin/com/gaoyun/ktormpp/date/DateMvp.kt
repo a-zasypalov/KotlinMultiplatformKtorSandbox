@@ -1,4 +1,4 @@
-package date
+package com.gaoyun.ktormpp.date
 
 //Model-класс для MVP
 data class DateState(var dateText: String)
@@ -11,7 +11,11 @@ interface DateView {
 //Presenter-класс для MVP
 class DatePresenter(private val view: DateView) {
 
-    private val state by lazy { DateState(dateUtilities.platformDate.getCurrentDate()) }
+    private val state by lazy {
+        DateState(
+            dateUtilities.platformDate.getCurrentDate()
+        )
+    }
 
     fun init() {
         view.showDate(state.dateText)

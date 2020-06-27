@@ -1,4 +1,4 @@
-package date
+package com.gaoyun.ktormpp.date
 
 //Функция для получения текущей форматированной даты
 expect class PlatformDate() {
