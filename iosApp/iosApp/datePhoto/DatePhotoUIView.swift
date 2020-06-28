@@ -30,13 +30,22 @@ struct DatePhotoUIView: View {
                                     .shadow(radius: 10.0)
                     })
                 } else {
-                    Text("Image...")
+                    Text("Image...").padding(EdgeInsets.init(top: 32.0, leading: 0.0, bottom: 32.0, trailing: 0.0))
                 }
                 Text(controller.currentPhotoAuthor)
+                Button(action: {self.controller.getFstPhotoFromDb()}){
+                    Text("Get 1-st photo from DB")
+                }.padding(EdgeInsets.init(top: 32.0, leading: 0.0, bottom: 0.0, trailing: 0.0))
+                Button(action: {self.controller.getSndPhotoFromDb()}){
+                    Text("Get 2-nd photo from DB")
+                }.padding(EdgeInsets.init(top: 16.0, leading: 0.0, bottom: 0.0, trailing: 0.0))
+                Button(action: {self.controller.getPhotoFromApi()}){
+                    Text("Fetch photo from API")
+                }.padding(EdgeInsets.init(top: 16.0, leading: 0.0, bottom: 0.0, trailing: 0.0))
             }
         }.onAppear {
             self.controller.initDateView()
-            self.controller.getPhotos()
+            self.controller.initPhotosPresenter()
         }
     }
     

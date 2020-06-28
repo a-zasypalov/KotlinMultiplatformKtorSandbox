@@ -1,33 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         tools:context=".gaoyun.ktormpp.MainActivity">
 
-    <TextView
-            android:id="@+id/tv_time"
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="5sp"
-            android:gravity="center"
-            android:textColor="@android:color/black"
-            android:textSize="18sp" />
+            android:orientation="vertical">
 
-    <ImageView
-            android:id="@+id/img_photo"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:scaleType="centerCrop" />
+        <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp" />
 
-    <TextView
-            android:id="@+id/tv_photo_info"
+        <ImageView
+                android:id="@+id/img_photo"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop" />
+
+        <TextView
+                android:id="@+id/tv_photo_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:textColor="@android:color/black"
+                android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:textColor="@android:color/black"
-            android:textSize="14sp" />
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="16dp"
+            android:orientation="vertical">
 
-</LinearLayout>
+        <Button
+                android:id="@+id/btn_fst_db"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get 1-st photo from DB" />
+
+        <Button
+                android:id="@+id/btn_snd_db"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get 2-nd photo from DB" />
+
+        <Button
+                android:id="@+id/btn_from_api"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fetch photo from API" />
+
+    </LinearLayout>
+
+</FrameLayout>

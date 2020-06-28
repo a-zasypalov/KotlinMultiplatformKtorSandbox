@@ -29,11 +29,6 @@ kotlin {
             }
         }
     }
-    macosX64("native") {
-        binaries {
-            framework()
-        }
-    }
     sourceSets {
         commonMain {
             dependencies {
@@ -42,7 +37,7 @@ kotlin {
                 implementation "io.ktor:ktor-client-json:$rootProject.ktorVer"
                 implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core-common:$rootProject.coroutinesVer"
                 implementation "io.ktor:ktor-client-serialization:$rootProject.ktorVer"
-//                implementation "com.squareup.sqldelight:sqlite-driver:1.4.0"
+                implementation "com.squareup.sqldelight:coroutines-extensions:1.4.0"
             }
         }
         androidMain {
@@ -80,7 +75,7 @@ kotlin {
 
         iosTest {
         }
-      \
+
     }
 }
 

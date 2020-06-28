@@ -26,9 +26,20 @@ class DatePhotoViewController: ObservableObject, DateView, PhotoView {
         datePresenter.doInit()
     }
     
-    func getPhotos() {
-        photoPresenter = PhotoPresenter(useCase: PhotoUseCase(repository: PhotoRepository(api: PhotoApi())), view: self)
+    func initPhotosPresenter() {
+        photoPresenter = PhotoPresenter(useCase: PhotoUseCase(repository: PhotoRepository(api: PhotoApi()), dbDriver: DriverFactory()), view: self)
+    }
+    
+    func getPhotoFromApi() {
         photoPresenter.getRandomPhoto()
+    }
+    
+    func getFstPhotoFromDb() {
+        photoPresenter.getPhotoFromDb()
+    }
+    
+    func getSndPhotoFromDb() {
+        photoPresenter.getNewPhotoFromDb()
     }
     
     func showDate(date: String) {
