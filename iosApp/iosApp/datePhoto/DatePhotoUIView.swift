@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DatePhotoUIView.swift
 //  MultiplatformKtor
 //
 //  Created by Артем on 27.06.2020.
